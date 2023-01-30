@@ -1,5 +1,4 @@
 /******************************************************************************
-
 /******************************************************************************
 Welcome to GDB Online.
 GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
@@ -15,8 +14,8 @@ int main()
     cout<<"Hello World Lucas, your tall is " << 1 << " m " << 70 << " cm " << endl;
     printf("Hello World Lucas, your tall is %d m %d cm \n",1,70);
     
-    printf(" hello Selena "); 
-     printf(" my height is %d m %d cm \n",1,80);
+    printf(" hello Lucas "); 
+     printf(" my height is %d m %d cm \n",1,70);
      printf(" this building is %5d cm \n", 890);
      printf(" this building is %5d cm \n", 7890);
      printf(" this building is %5d cm \n", 67890);
