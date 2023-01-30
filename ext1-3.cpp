@@ -21,6 +21,6 @@ int main()
      printf(" this building is %5d cm \n", 67890);
      printf(" this building is %5d cm \n", 567890);
      printf(" this building is %5d cm \n", 1234567890);
-     printf(" pi = %f \n ", 3.1415926535897932384626433832795);
+     printf(" pi = %f \n ", 3.1415926535897932384626433832795);//到小數點後6位
     return 0;
 }
