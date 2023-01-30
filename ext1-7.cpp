@@ -29,12 +29,20 @@ int main ()
   printf ("A mod B=%d\n", result);
   
   
-   result = a>b;
+  result = a>b;
   printf ("A>B =>%d\n", result);
   result = a<b;
   printf ("A<B =>%d\n", result);
   result = a==b;
   printf ("A==B =>%d\n", result);
+  
+  
+  result = a > 10 && b < 8;
+  printf ("a > 10 && b < 8 =>%d\n", result);
+  result = a > 10 || b < 8;
+  printf ("a > 10 || b < 8 =>%d\n", result);
+  result = !(a > 10 || b < 8);
+  printf ("!(a > 10 || b < 8) =>%d\n", result);
 
   return 0;
 }
