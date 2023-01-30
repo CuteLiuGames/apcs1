@@ -27,6 +27,14 @@ int main ()
   printf ("A/B=%d\n", result);
   result = a%b;
   printf ("A mod B=%d\n", result);
+  
+  
+   result = a>b;
+  printf ("A>B =>%d\n", result);
+  result = a<b;
+  printf ("A<B =>%d\n", result);
+  result = a==b;
+  printf ("A==B =>%d\n", result);
 
   return 0;
 }
